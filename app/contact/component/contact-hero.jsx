@@ -24,15 +24,6 @@ export default function ContactHero() {
         }}
       />
       
-      {/* Dark Overlay */}
-      <Box
-        sx={{
-          position: 'absolute',
-          inset: 0,
-          bgcolor: 'rgba(0, 0, 0, 0.6)'
-        }}
-      />
-      
       {/* Content */}
       <Container
         sx={{

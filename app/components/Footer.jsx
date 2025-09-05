@@ -24,7 +24,7 @@ export default function Footer() {
           {/* Logo and Social */}
           <Box>
             <Box sx={{ mb: 3 }}>
-              <img src="/logo.png" alt="Reviera Travel" style={{ height: '80px', width: 'auto' }} />
+              <img src="/logo-white.png" alt="Reviera Travel" style={{ height: '160px', width: 'auto' }} />
             </Box>
             <Box sx={{ display: 'flex', gap: 1.5 }}>
               <IconButton

@@ -3,10 +3,11 @@ import { Button, Box, Typography, Container, Grid, Paper } from "@mui/material"
 export default function HeroSection() {
   return (
     <Box
+      data-hero-section
       sx={{
         position: 'relative',
         minHeight: '100vh',
-        backgroundImage: `url('/home-landing.jpg')`,
+        backgroundImage: `url('/home/home-landing.jpg')`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         display: 'flex',
